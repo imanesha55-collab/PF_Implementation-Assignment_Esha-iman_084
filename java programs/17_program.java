@@ -1,0 +1,9 @@
+class Main {
+  public static void main(String[] args) {
+    double num = 15.58971;
+    int integral = (int) num;
+    double fractional = num - integral;
+    System.out.println(integral + " " + fractional);
+  }
+}
+
